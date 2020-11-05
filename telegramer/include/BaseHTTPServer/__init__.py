@@ -70,6 +70,7 @@ __version__ = "0.3"
 
 __all__ = ["HTTPServer", "BaseHTTPRequestHandler"]
 
+from __future__ import unicode_literals
 import sys
 import time
 import socket # For gethostbyaddr()
