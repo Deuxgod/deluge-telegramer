@@ -123,6 +123,7 @@ BaseServer:
 __version__ = "0.4"
 
 
+from __future__ import unicode_literals
 import socket
 import selectors
 import os
