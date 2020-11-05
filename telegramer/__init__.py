@@ -43,6 +43,7 @@
 #
 
 import sys
+from __future__ import unicode_literals
 from deluge.log import LOG as log
 
 import pkg_resources
