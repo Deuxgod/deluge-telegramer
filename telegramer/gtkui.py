@@ -40,6 +40,7 @@
 
 
 try:
+    from __future__ import unicode_literals
     from deluge.log import LOG as log
 except Exception as e:
     print 'Telegramer: Exception - %s' % str(e)
