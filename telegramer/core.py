@@ -46,6 +46,7 @@
 import os
 import logging
 import traceback
+from __future__ import unicode_literals
 from time import strftime
 from deluge.log import LOG as log
 
