@@ -18,6 +18,7 @@
 # along with this program.  If not, see [http://www.gnu.org/licenses/].
 """A library that provides a Python interface to the Telegram Bot API"""
 
+from __future__ import unicode_literals
 from .base import TelegramObject
 from .user import User
 from .files.chatphoto import ChatPhoto
